@@ -199,12 +199,13 @@ body{
     /* }  */
     .about{
         width: 100%;
-        height: fit-content;
+        height: 55vh;
         background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
         display: flex; 
         flex-direction: column;
         justify-content: space-between;
         /* background-color: antiquewhite; */
+        
         }
 
     .abouttxt{
@@ -223,7 +224,7 @@ body{
 .aboutcntnt{
     width: 60%;
     background-color: rgba(0, 0, 0, 0.32);
-    padding: 5vh 3vh;
+    padding: 2vh 3vh;
     margin: 0 5vw;
     border-radius: 15px;
     color: white;
@@ -233,6 +234,8 @@ body{
     /* border: 3px solid rgb(76, 118, 202); */
     line-gap-override: 1px;
     line-height:40PX;
+    box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
+
 }
 
 .langbox{
@@ -258,13 +261,13 @@ body{
     margin: 0 5vw;
     word-spacing: 1vh;
     /* border: 3px solid rgb(76, 118, 202); */
-
 }
 
 
 
 .skillsbox{
     width: 100%;
+    height: 35vh;
     margin: 10vh 0;
     display: flex;
     flex-direction: column;
@@ -286,6 +289,8 @@ body{
     width: fit-content;
     margin: 0 5vw;
     /* border: 3px solid rgb(76, 118, 202); */
+    box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
+
 
  }
 
@@ -303,6 +308,7 @@ body{
 
  .eduboxes{
     width: 100%;
+    /* height: 35vh; */
     margin: 7vh 0;
     display: flex;
     flex-direction: column;
@@ -310,6 +316,7 @@ body{
  }
 .edubox{
     width: fit-content;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -349,7 +356,8 @@ body{
  
 .working_ex{
     width: 100%;
-    margin: 2vh 0vh;
+    height: 35vh;
+    margin: 7vh 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -369,6 +377,8 @@ body{
     text-align: left;
     width: fit-content;
     margin: 0 5vw;
+    box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
+
  }
 
  #workEx_word{
@@ -382,6 +392,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 1vh 1vh;  
     border: none; 
+    box-shadow:  0 0 135px rgb(76, 118, 202);
  }
 
 
@@ -395,6 +406,7 @@ body{
  }
 .cirtybox{
     width: fit-content;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -415,7 +427,7 @@ body{
     text-align: left;
     width: fit-content;
     margin: 0 5vw;
-
+    box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
  }
 
  #cirty_word{
@@ -460,7 +472,6 @@ body{
     }
 } */
 
-
 .connect_box{
     width: 60vw;
     margin: auto;
@@ -470,6 +481,8 @@ body{
     border-radius: 15px;
     background-color: black;
     border: 2px solid rgb(76, 118, 202);
+    /* resize: both;
+    overflow: auto; */
 }
 
 .pic_contain{
@@ -510,24 +523,20 @@ font-size: xx-large;
 font-weight: 500;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 padding: 10px 10px;
-margin: auto;
 color: white;
 border-radius: 10px;            
-/* border: 2px solid rgb(76, 118, 202); */
 box-shadow: 0 0 25px rgb(76, 118, 202);
 background-color: black;
+margin: auto;x
 }
 
 .chating_text{
     width: 100%;
-    display: flex;
-    border-radius: 10px;
-    padding: 10px 10px;
     color: white;
-    box-shadow: -1px -1px 2px rgb(76, 118, 202);
-    background-color: black;
     border: none;
-    font-size: x-large;
+    text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: auto;
 }
 
 .connect_box:hover{
@@ -552,12 +561,13 @@ bottom: 180px;
     100% {left:-50px;}
     }
 
-
     .download_Resume_box{
         background: linear-gradient(45deg,black,rgb(124, 168, 255,0.4),black);
         text-align: center;
         padding: 10px 0;
         margin-top: 5px;
+        margin-bottom: -7px;
+    box-shadow:  0 0 135px rgb(76, 118, 202);
     }
     .download_resume{
         color: white;
@@ -566,3 +576,25 @@ bottom: 180px;
         font-weight: 200;
         text-decoration: none;
     }
+
+ 
+input{
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border: none;
+    box-shadow:  0 0 5px rgb(76, 118, 202);
+    color: white;
+    padding: 2px 5px;
+    width: 100%;
+}
+.submitbtn{
+    border-radius: 15px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border: none;
+    box-shadow:  0 0 5px rgb(76, 118, 202);
+    padding: 2px 5px;
+    margin-bottom: 5px;
+}
