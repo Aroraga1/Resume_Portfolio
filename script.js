@@ -40,6 +40,7 @@ function form() {
     });
 }
 
+
 function sendmail(name, email, massage) {
     let takengiven = {
         name: name,
@@ -48,4 +49,3 @@ function sendmail(name, email, massage) {
     }
         emailjs.send("service_ppj72c7","template_jcvns8q",takengiven).then(alert("email send successfully!"));
     }   
-
