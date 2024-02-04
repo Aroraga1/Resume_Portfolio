@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     padding: 0 1vw;
     /* align-items: center; */
+    z-index: 10;
 }
 .line-1{
     width: 100%;
@@ -136,7 +137,6 @@ body{
 }
 .circle:hover{
     box-shadow: 0 0 17px rgb(76, 118, 202);
-
 }
 .frntend{
     color: white;
@@ -206,6 +206,7 @@ body{
         justify-content: space-between;
         /* background-color: antiquewhite; */
         margin: 5vh 0vh;
+        background-color: rgba(0, 0, 0, 0);
         }
 
     .abouttxt{
@@ -247,6 +248,7 @@ body{
     text-align: center;
     /* background-color: antiquewhite; */
     margin: 5vh 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 .lang{
     width: fit-content;
@@ -274,6 +276,7 @@ body{
     background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
     /* background-color: antiquewhite; */
     margin: 10vh 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
  .skill{
@@ -287,7 +290,7 @@ body{
     font-weight: 500;
     text-align: left;
     width: fit-content;
-    margin: 0 5vw;
+    margin: 3px 5vw;
     /* border: 3px solid rgb(76, 118, 202); */
     box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
 
@@ -322,7 +325,7 @@ body{
     justify-content: space-between;
     align-items: end;
     background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
-    /* background-color: rgb(0, 79, 143, 0.1); */
+    background-color: rgba(0,0,0,0);
 }
 
  .education{
@@ -336,7 +339,7 @@ body{
     font-weight: 500;
     text-align: left;
     width: fit-content;
-    margin: 0 5vw;
+    margin: 3px 5vw;
     /* border: 3px solid rgb(76, 118, 202); */
 
  }
@@ -362,11 +365,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
-    /* background-color: antiquewhite; */
+    background-color: rgba(0, 0, 0, 0);
 }
 
  .workes{
-    background-color: rgba(0, 0, 0, 0.32);
+    background-color: rgba(0, 0, 0, 0);
     padding: 2vh 3vh;
     border-radius: 15px;
     color: white;
@@ -376,7 +379,7 @@ body{
     font-weight: 500;
     text-align: left;
     width: fit-content;
-    margin: 0 5vw;
+    margin: 3px 5vw;
     box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
 
  }
@@ -403,6 +406,7 @@ body{
     flex-direction: column; 
     justify-content: space-between;
     align-items: end;
+    background-color: rgba(0, 0, 0, 0);
  }
 .cirtybox{
     width: fit-content;
@@ -413,6 +417,7 @@ body{
     align-items: end;
     background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
     /* background-color: rgb(0, 79, 143, 0.1); */
+    background-color: rgba(0, 0, 0, 0);
 }
 
  .cirtificate{
@@ -426,7 +431,7 @@ body{
     font-weight: 500;
     text-align: left;
     width: fit-content;
-    margin: 0 5vw;
+    margin: 3px 5vw;
     box-shadow:  0 0 135px rgb(76, 118, 202,0.2);
  }
 
@@ -483,6 +488,7 @@ body{
     border: 2px solid rgb(76, 118, 202);
     /* resize: both;
     overflow: auto; */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .pic_contain{
@@ -607,3 +613,39 @@ input{
         background-size: cover;
     }
 }
+@media (max-width: 900px) {
+    .connect_box{
+        width: 80%;
+    }
+    .pic_contain{
+        display: none;
+        /* background-size: cover; */
+    }
+}
+
+.otpfillupdiv{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.otp{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    width: fit-content;
+    background-color: burlywood;
+    color: black;
+    border: none;
+}
+
+.otpsubmit{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+}
+
