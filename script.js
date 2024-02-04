@@ -1,3 +1,7 @@
+// const otpfillupdiv = document.querySelector(".otpfillupdiv");
+// const otpinput = document.querySelector(".otp");
+// const otpsubmit = document.querySelector(".otpsubmit");
+
 const chattingtext = document.querySelector(".chating_text");
 const chat = document.querySelector(".chat");
 const massage_hii = document.createElement("button");
@@ -9,7 +13,6 @@ massage_hii.addEventListener("click", () => {
     form();
     massage_hii.style.display = "none";
 });
-
 function form() {
     const form = document.createElement("form");
     let nam = document.createElement("input");
@@ -37,6 +40,7 @@ function form() {
     form.addEventListener("submit", function (e) {
         e.preventDefault();
         sendmail(nam.value, mail.value, msg.value);
+    // otpfillupdiv.style.display = "block";
     });
 }
 
@@ -49,3 +53,6 @@ function sendmail(name, email, massage) {
     }
         emailjs.send("service_ppj72c7","template_jcvns8q",takengiven).then(alert("email send successfully!"));
     }   
+
+
+
