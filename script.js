@@ -55,4 +55,18 @@ function sendmail(name, email, massage) {
     }   
 
 
+    const cutNav = document.querySelector("#cutNav");
+    const navLink = document.querySelector(".navContain");
+    const Lines = document.querySelector(".line");
+    Lines.addEventListener('click', () => {
+        navLink.style.display = `block`;
+        // Lines.style.display = `none`;
+    });
+    cutNav.addEventListener('click', () => {
+        navLink.style.display = `none`;
+        // Lines.style.display = `block`;
+    });
+
+
+
 
