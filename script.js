@@ -58,15 +58,16 @@ function sendmail(name, email, massage) {
     const cutNav = document.querySelector("#cutNav");
     const navLink = document.querySelector(".navContain");
     const Lines = document.querySelector(".line");
-    Lines.addEventListener('click', () => {
+    const grd = document.querySelector(".grd-1");
+    const Lines1 = document.querySelector(".line-1");
+    const Lines2 = document.querySelector(".line-2");
+    const Lines3 = document.querySelector(".line-3");
+    grd.addEventListener('click', () => {
         navLink.style.display = `block`;
-        // Lines.style.display = `none`;
     });
     cutNav.addEventListener('click', () => {
         navLink.style.display = `none`;
-        // Lines.style.display = `block`;
     });
-
 
 
 

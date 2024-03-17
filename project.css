@@ -1,201 +1,159 @@
-body{
-    background-color:rgb(0, 0, 0);
-    text-align: center;
+#indexcome{
+    z-index: 9090;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    font-size: 2.8rem;
+    text-decoration: none;
 }
- .navbar{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
- }
-.line{    
-    width: 5%;
-    height: 5vh;
-    /* background-color: antiquewhite; */
+.projectsheadContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 1vw;
-    /* align-items: center; */
-    z-index: 10;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10vh;
 }
-.line-1{
-    width: 100%;
-    border: 1px solid white;    
-}
-.line-3{
-    width: 35%;
-    border: 1px solid white;    
-}
-.line-2{
-    width: 20%;
-    border: 1px solid white;    
-}
-.portfoilo{
-    color: rgb(255, 255, 255);
-    font-size:5vw;
-    font-weight: normal;
-    width: 90%;  
-    text-align: center;  
-}
-.garvit{
-    display: inline;
-    color: rgb(255, 255, 255);
-    font-size: 10vw; 
-    font-weight: bolder;
-    z-index: 3;
-    font-family: inter;
-    position: relative; 
-    background-color: rgb(255, 255, 255);
-    color: transparent;
-    -webkit-background-clip: text;
-    animation: amima 3s infinite alternate; 
-}
-/* @keyframes amima{
-    0%{
-        background-color: rgba(255, 255, 255, 0.603);
-    }
-    100%{
-        background-color: rgb(11, 9, 66);
-    }
-} */
-/* .garvit::after{
-    content: "GARVIT";
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
-    position: absolute;
-    background-color: beige;
-}
-.garvit::before{
-    content: "GARVIT";
-    position: absolute;
-    width: fit-content;
-    background-color: rgb(151, 85, 0);
-} */
-/* 
-.garvit:hover::after{
-    content: "";
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(0, 0, 255, 0.263);
-    top: 0;
-    left: 0;
-    animation-name: garvitanim;
-    animation-duration: 2s;
-    z-index: 11;
-    text-align: center;
-}
-.garvit:hover::before{
-    content: "";
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(0, 0, 255, 0.9);
-    top: 0;
-    left: 0;
-    animation-name: garvitanim;
-    animation-duration: 2s;
-    z-index: 11;
-    text-align: center;
-}
-@keyframes garvitanim{
-    0%{
-        width: 0;
-        left: 0;
-    }
-    50%{
-        width: 100%;
-        left: 0;
-    }
-    100%{
-        width:0;
-        left:100%;
-    }
-} */
-.arora{
-    display: inline;
-    color: rgb(255, 255, 255);
-    font-size: 10vw;
-    font-weight: bolder;
-    z-index: 4;
-    font-family: inter;
-    text-underline-position: under;
-}
-.circle{
-    width: 22vw;
-    height: 40vh;
-    display: inline-block;
-    border-radius: 50%;
-    border-bottom: 4px solid rgb(0, 0, 0);
-    border-right: 3px solid rgb(0, 0, 0);
-    border-left:  3px solid rgb(0, 0, 0);  
-    background-image: url(pic1.png); 
-    background-size: cover;
-    z-index: 5;
-    justify-content: center;
-    /* box-shadow: 0 0 17px rgb(76, 118, 202); */
-}
-.circle:hover{
-    box-shadow: 0 0 17px rgb(76, 118, 202);
-    transition: all 0.4s ease-in-out;
-}
-.frntend{
-    color: white;
-    font-size: 3vw;
-    justify-content: right;
-    box-shadow:rgb(255, 255, 255);
-}
-.header{
-    width: 100%;
-    height: 70vh;
+.headP{
+    /* height: fit-content; */
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-around;
-    flex-direction: row;
-    /* background-color: aqua; */
-    
-}
-.head{
     width: 100%;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background:linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
-    translate: rotateX(180deg);
-    transform: all 2s;   
+    margin: auto;
+    background-color: rgba(24,22,22);
+    padding: auto;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-bottom: 2vh;    
 }
-
-.grd-1{
-    width: 20%;
-    height: 40%;
-    position: absolute;
-    top: -175px;
-    left: -150px;
-    background: radial-gradient(42.77% 46.77% at 50% 49.92%, rgba(242, 242, 245, 0.27) 0%, rgba(0, 0, 0, 0.00) 100%);
-    border-radius: 50%;
+.wordP{
+    color: #fff;
+    text-align: start;
+    margin: 10px 0px;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 10px 30px;   
+    margin-top: 5vh;
 }
-.grd-11{
-    width: 25%;
-    height: 40%;
-    position: absolute;
-    top:1090px;
-    rotate: 90deg;
-    left: 130px;
-    background: radial-gradient(42.77% 46.77% at 50% 49.92%, rgba(242, 242, 245, 0.27) 0%, rgba(0, 0, 0, 0.00) 100%);
-    border-radius: 50%;
+.headerP{
+    width: 45%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(24,22,22);
+    margin-top: 3vh;
+    padding-bottom: 50px;
 }
-/* .grd-2{
-    border-radius: 50%;
-    width: 600px;
-    height: 600px;
-    display: flex;
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    rotate:90px;
-    /* background-color: antiquewhite; */
-    /* }  */
+.Pname{
+    color: #fff;
+    text-align: start;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 0px 30px;   
+    margin-bottom: 1vh;
+}
+.pro{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:  0 0 5px rgb(76, 118, 202);
+}
+.pro:hover{
+    box-shadow:  0 0 15px rgb(76, 118, 202);
+}
+.imgP{
+    width: 100%;
+    height: 25vh;
+    background-color: #fff;
+    background-size: auto;
+    border-radius: 20px;
+    }
+    
+    .aboutP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 15px 10px;
+        color: white;
+        margin-bottom: 5vh;
+    }
+    .demoP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* padding: 10px 10px; */
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+        /* box-shadow:  0 0 5px rgb(76, 118, 202); */
+        margin-bottom: 50px;
+    }
+    .gitP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* padding: 10px 10px; */
+        margin-left: 30px;
+        margin-bottom: 50px;
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+        /* box-shadow:  0 0 5px rgb(76, 118, 202); */
+    }
+    #imgp1{
+        background-image: url(chatbotimg.jpg);
+        background-size: cover;
+        }
+        #imgp2{
+            background-image: url(OIP.jpg);
+            background-size: cover;
+            }
+            #imgp3{
+                background-image: url(tictactoeinJava.webp);
+                background-size: cover;
+                }
+                #imgp4{
+                    background-image: url(calculaterinJava.png);
+                    background-size: cover;
+                    }
+    #imgp7{
+    background-image: url(calculater.png);
+    background-size: cover;
+    }
+    #imgp5{
+        background-image: url(todoList.png);
+        background-size: cover;
+        }
+        #imgp6{
+            background-image: url(decorationClints.png);
+            background-size: cover;
+            }
+            #imgp8{
+                background-image: url(portfolio.png);
+                background-size: cover;
+                }
+                #imgp9{
+                    background-image: url(Aerophentom.png);
+                    background-size: cover;
+                    }
+                    #imgp10{
+                        background-image: url(ButtonAnimationFigma.png);
+                        background-size: cover;
+                        }
+                        #imgp11{
+                            background-image: url(firstProjectFigma.png);
+                            background-size: cover;
+                            }
+                            #imgp12{
+                                background-image: url(web3projectFigma.png);
+                                background-size: cover;
+                                }

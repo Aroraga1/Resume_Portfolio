@@ -1,12 +1,21 @@
+*{
+    margin: 0%;
+}
 body{
     background-color:rgb(0, 0, 0);
     text-align: center;
+    margin: 0 auto;
+    overflow-x:hidden;
+    width: 100%;
 }
  .navbar{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    width: 100vw;
  }
 .line{    
     width: 5%;
@@ -15,10 +24,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 0 1vw;
-    z-index: 10;
+    background-color: black;
+    /* align-items: center; */
 }
 .line-1{
-    width: 100%;
+    width: 80%;
     border: 1px solid white;    
 }
 .line-3{
@@ -33,21 +43,20 @@ body{
 .navContain{
     display:none;
     position: absolute;
-    display:flex;
-    justify-self: center;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
     align-items: center;
     background-color: rgba(153, 68, 68, 0.583);
-    width: fit-content;
-    height: fit-content;
-    padding : 20px 15px;
+    width: 27vw;
+    padding : 10px 20px;
     border-radius: 30px;
-    gap:  15px;
-    left: 6.8vw;
+    left: 7vw;
+    /* max-height: 10vh; */
     background-color: rgb(24, 22, 22);
     transition: all 1s ease-in-out;
     box-shadow: 0 0 8px rgb(76, 118, 202);
     margin-right: 100px;
-
+    margin-top: 25px;
 }
 #cutNav{
     background-color: white;
@@ -55,12 +64,14 @@ body{
     border-radius: 50%;
     margin-left: 10px;
     padding: 5px 11px;
+    box-shadow: 0 0 20px rgb(76, 118, 202);
 }
 .navAtributes{
     color: white;
     font-weight: 400;
     font-size: 1.5rem;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 
@@ -74,6 +85,20 @@ body{
     justify-content: center; 
     /* z-index: 1200; */
     margin: auto;
+}
+
+
+.themeIcon{
+    width: 55px;
+    height: 55px;
+    background-image: url(icons8-white-heart-48.png);
+    background-size: contain;
+    z-index: 9090;
+    position: absolute;
+    /* top: 0vh; */
+    right: 30px;
+    cursor: pointer;
+
 }
 .socialIcons{
     width: 300px;
@@ -102,10 +127,10 @@ body{
     z-index: 3;
     font-family: inter;
     position: relative; 
-    background-color: rgb(255, 255, 255);
-    color: transparent;
-    -webkit-background-clip: text;
+    /* color: transparent;
+    -webkit-background-clip: text; */
     animation: amima 3s infinite alternate; 
+    text-shadow: 0.4vh 0.4vh 0.5vh rgb(216, 213, 213);
 }
 /* @keyframes amima{
     0%{
@@ -176,7 +201,8 @@ body{
     font-weight: bolder;
     z-index: 4;
     font-family: inter;
-    text-underline-position: under;
+    /* text-underline-position: under; */
+    text-shadow: 0.4vh 0.4vh 0.5vh rgb(216, 213, 213);
 }
 .circle{
     width: 22vw;
@@ -199,8 +225,12 @@ body{
     color: white;
     font-size: 3vw;
     justify-content: right;
-    box-shadow:rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: black;
+    padding: 2px 3px;
+    box-shadow:0 0 10px rgb(76, 118, 202);
 }
+
 .header{
     width: 100%;
     height: 70vh;
@@ -233,6 +263,64 @@ body{
     background: radial-gradient(42.77% 46.77% at 50% 49.92%, rgba(242, 242, 245, 0.27) 0%, rgba(0, 0, 0, 0.00) 100%);
     border-radius: 50%;
 }
+#gridback1{
+    top: 25vh;
+    left: 71vh;
+}
+#gridback2{
+    position: relative;
+    top: -5vh;
+    left: 135vh;
+    /* background-color: blur(25px); */
+     position: fixed;
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-50%, 0%);
+  width: 800px;
+  height: 800px;
+	border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+  background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+  opacity: 0.2;
+}
+#gridback3{
+    top: 33vh;
+    left: -18vh;
+}
+#gridback4{
+    top: 120vh;
+    left: 0vh;
+    width: 30%;
+    height: 50%;
+}
+#gridback5{
+    top: 232vh;
+    left: 110vh;
+    width: 30%;
+    height: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80vw;
+    height: 80vh;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+    opacity: 0.2;
+}
+#gridback6{
+    top: 292vh;
+    left: 143vh;
+    width: 15%;
+    height: 22%;
+}
+#gridback7{
+    top: -35vh;
+    left: 82vw;
+    width: 30%;
+    height: 50%;    
+}
 .grd-11{
     width: 25%;
     height: 40%;
@@ -257,7 +345,7 @@ body{
     .about{
         width: 100%;
         /* height: 55vh; */
-        background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
+        /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
         display: flex; 
         flex-direction: column;
         justify-content: space-between;
@@ -277,7 +365,6 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 5vw;
     padding: 1vh 1vh;
-
 }    
 .aboutcntnt{
     width: 60%;
@@ -330,7 +417,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
+    /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
     /* background-color: antiquewhite; */
     margin: 10vh 0;
     background-color: rgba(0, 0, 0, 0);
@@ -364,6 +451,7 @@ body{
     font-size:xx-large; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 1vh 1vh;   
+    border: 4px solid rgba(0, 0, 39, 0.65);
  }
 
  .eduboxes{
@@ -381,7 +469,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
-    background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
+    /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
     background-color: rgba(0,0,0,0);
 }
 
@@ -421,7 +509,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
+    /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -453,6 +541,8 @@ body{
     padding: 1vh 1vh;  
     border: none; 
     box-shadow:  0 0 135px rgb(76, 118, 202);
+    border: 4px solid rgba(0, 0, 39, 0.65);
+
  }
 
 
@@ -472,7 +562,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
-    background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative;
+    /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
     /* background-color: rgb(0, 79, 143, 0.1); */
     background-color: rgba(0, 0, 0, 0);
 }
@@ -559,17 +649,19 @@ body{
     border-radius: 15px;
     border: none;
     box-shadow:  0 0 15px rgb(76, 118, 202);
+    z-index: 9999;
 }
 
 .chat{
-    width: 60%;
-    margin: 0 5%;
+    width: 70%;
+    margin: 0 0.3%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 15px;
     /* background: linear-gradient(to bottom right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(31, 51, 125, 0.50) 0%, rgba(0, 0, 0, 0.00) 50%) top right / 50% 50% no-repeat; position: relative; */
     background-color: black;
+    z-index: 9999;
 }
 
 .connect{
@@ -578,7 +670,7 @@ body{
     font-weight: 900;
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 
 .massage_hii{
@@ -669,89 +761,29 @@ input{
     .pic_contain{
         background-size: cover;
     }
-    .head{
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
+    #gridback1{
+        display: none;
     }
-    .circle{
-        width: 300px;
-        height: 300px;
-        margin: auto;
+    #gridback2{
+        display: none;
     }
-    .garvit{
-        width: 100%;
+    #gridback5{
+        display: none;
     }
-    .arora{
-        width: 100%;
-    }
-    
 }
+
+.socialcontains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 900px) {
     .connect_box{
         width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
-
     .pic_contain{
         display: none;
         /* background-size: cover; */
     }
-    .chating_text{
-        margin-top: 10px;
-        width: 100%;
-    }
-    .massage_hii{
-        margin-top: 10px;
-        width: 100%;
-    }
-    .connect{
-        margin-top: 10px;
-        width: 100%;
-    }
 }
-
-.otpfillupdiv{
-    width: 100%;
-    background-color: white;
-    margin-top: 20px;
-    padding: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    display: none;
-}
-
-.otp{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: larger;
-    width: fit-content;
-    background-color: burlywood;
-    color: black;
-    border: none;
-}
-
-.otpsubmit{
-    background-color: red;
-    color: white;
-    padding: 10px 10px;
-}
-
-@media (max-width: 1430px) {
-    .navAtributes{
-        color: white;
-        font-weight: 400;
-        font-size: 1rem;
-        text-decoration: none;
-    }
-    .navContain{
-        padding: 2px 3px;
-        top: 50px;
-        /* left: 20px; */
-        /* justify-content: center; */
-        margin: auto;
-    }
-}
-
