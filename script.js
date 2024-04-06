@@ -15,6 +15,7 @@ massage_hii.addEventListener("click", () => {
 });
 function form() {
     const form = document.createElement("form");
+    form.setAttribute("class","formm");
     let nam = document.createElement("input");
     nam.setAttribute("class", "nam");
     let mail = document.createElement("input");
@@ -54,7 +55,7 @@ function sendmail(name, email, massage) {
         emailjs.send("service_ppj72c7","template_jcvns8q",takengiven).then(alert("email send successfully!"));
     }   
 
-
+    const navbar = document.querySelector(".navbar");
     const cutNav = document.querySelector("#cutNav");
     const navLink = document.querySelector(".navContain");
     const Lines = document.querySelector(".line");
@@ -62,12 +63,17 @@ function sendmail(name, email, massage) {
     const Lines1 = document.querySelector(".line-1");
     const Lines2 = document.querySelector(".line-2");
     const Lines3 = document.querySelector(".line-3");
-    grd.addEventListener('click', () => {
-        navLink.style.display = `block`;
+    Lines.addEventListener('click', () => {
+        navLink.style.display = `flex`;
+        Lines.style.display = "none";
     });
     cutNav.addEventListener('click', () => {
         navLink.style.display = `none`;
+        Lines.style.display = `flex`;
+    })
+    
+    const projectPage = document.querySelector("#projectPage");
+    
+    projectPage.addEventListener('click', () => {
+        Lines.style.display = 'flex';
     });
-
-
-

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.line{
+ width: 3vw;
+ height: 300px;
+ background-color: #fff;
+ background-image: url(linkedin.png); 
+}
+
+.navContain{
+    background-color: white;
+    display: none;
+}
+.portfoilo{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    font-size: 5vw;
+    background-color: red;
+    width: fit-content;
+}
+.themeIcon{
+    background-image: url(linkedin.png);
+    width: 12vw;
+    height: 12vh;
+    background-color: 
+    white;
+}

@@ -1,8 +1,4 @@
 #indexcome{
-    z-index: 9090;
-    position: absolute;
-    right: 30px;
-    cursor: pointer;
     font-size: 2.8rem;
     text-decoration: none;
 }
@@ -10,18 +6,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 80%;
+    width: 80vw;
     margin: auto;
     background-color: rgba(0, 0, 0, 0);
     margin-bottom: 10vh;
 }
 .headP{
-    /* height: fit-content; */
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     margin: auto;
-    background-color: rgba(24,22,22);
+    background-color: rgba(24,22,22,0.8);
     padding: auto;
     margin-bottom: 50px;
     border-radius: 25px;
@@ -36,7 +30,7 @@
     height: fit-content;
     width: fit-content;
     font-size: larger;
-    font-weight: 500;
+    font-weight: 2vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     padding: 10px 30px;   
     margin-top: 5vh;
@@ -45,9 +39,8 @@
     width: 45%;
     margin: auto;
     border-radius: 20px;
-    background-color: rgba(24,22,22);
+    background-color: rgba(24,22,22,0.8);
     margin-top: 3vh;
-    padding-bottom: 50px;
 }
 .Pname{
     color: #fff;
@@ -90,24 +83,20 @@
         font-size: medium;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* padding: 10px 10px; */
         color: rgb(76, 118, 202);
         text-decoration: none;
         border-radius: 10px;
-        /* box-shadow:  0 0 5px rgb(76, 118, 202); */
         margin-bottom: 50px;
     }
     .gitP{
         font-size: medium;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* padding: 10px 10px; */
         margin-left: 30px;
         margin-bottom: 50px;
         color: rgb(76, 118, 202);
         text-decoration: none;
         border-radius: 10px;
-        /* box-shadow:  0 0 5px rgb(76, 118, 202); */
     }
     #imgp1{
         background-image: url(chatbotimg.jpg);
@@ -157,3 +146,40 @@
                                 background-image: url(web3projectFigma.png);
                                 background-size: cover;
                                 }
+                                #imgp13{
+                                    background-image: url(Stop_Watch_img.jpeg);
+                                    background-size: cover;
+                                    }
+                                    #imgp14{
+                                        background-image: url(time_counter_img.png);
+                                        background-size: cover;
+                                        }
+                                        #imgp15{
+                                            background-image: url(quize_app_img.png);
+                                            background-size: cover;
+                                            }
+                                            #imgp16{
+                                                background-image: url(whether_img.jpg);
+                                                background-size: cover;
+                                                }
+                                                #imgp17{
+                                                    background-image: url(sps_game_js.png);
+                                                    background-size: cover;
+                                                    }
+                                                    #imgp18{
+                                                        background-image: url(LMS_img.png);
+                                                        background-size: cover;
+                                                        }
+
+
+
+@media (max-width:600px){ .headP{
+    flex-direction: column; 
+}
+    .headerP{
+    width: 80%;
+}
+.Pname{
+    padding: 0;
+}
+}
