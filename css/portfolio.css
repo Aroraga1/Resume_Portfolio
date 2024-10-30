@@ -1,0 +1,254 @@
+#indexcome{
+    font-size: 2.8rem;
+    text-decoration: none;
+}
+.projectsheadContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10vh;
+}
+.headP{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgba(24,22,22,0.8);
+    padding: auto;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-bottom: 2vh;    
+}
+.wordP{
+    color: #fff;
+    text-align: start;
+    margin: 10px 0px;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 10px 30px;   
+    margin-top: 5vh;
+}
+.headerP{
+    width: 45%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(24,22,22,0.8);
+    margin-top: 3vh;
+}
+.Pname{
+    color: #fff;
+    text-align: start;
+    background-color: rgba(24,22,22);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 0px 30px;   
+    margin-bottom: 1vh;
+}
+.pro{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:  0 0 5px rgb(76, 118, 202);
+}
+.pro:hover{
+    box-shadow:  0 0 15px rgb(76, 118, 202);
+}
+.imgP{
+    width: 100%;
+    height: 25vh;
+    background-color: #fff;
+    background-size: auto;
+    border-radius: 20px;
+    }
+    
+    .aboutP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 15px 10px;
+        color: white;
+        margin-bottom: 5vh;
+    }
+    .demoP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .gitP{
+        font-size: medium;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        color: rgb(76, 118, 202);
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    #imgp1{
+        background-image: url(https://www.ghacks.net/wp-content/uploads/2023/03/InWith-AI-Launches-Free-Personalized-Chatbot-Clone-for-Enhanced-Online-Interactions-02-1536x864.jpg);
+        background-size: cover;
+        }
+        #imgp2{
+            background-image: url(https://th.bing.com/th/id/OIP.6UT3TA63UxZPa7DEo7QuIwHaEK?rs=1&pid=ImgDetMain);
+            background-size: cover;
+            }
+            #imgp3{
+                background-image: url(https://th.bing.com/th/id/OIP.BFMImhdccwwLj0I-C1UYjAHaEK?rs=1&pid=ImgDetMain);
+                background-size: cover;
+                }
+                #imgp4{
+                    background-image: url(https://external-preview.redd.it/i-made-a-clone-of-the-windows-calculator-app-to-teach-godot-v0-iOonaP3YGrjG9OWnTon2XdTY4C89m4kbH6P6DNdk_p0.png?format=pjpg&auto=webp&s=c2b51a48afda7b92f251b572d4546dc84b05d8b1);
+                    background-size: cover;
+                    }
+    #imgp7{
+    background-image: url(https://i.ytimg.com/vi/zpMYlV7rMfY/maxresdefault.jpg);
+    background-size: cover;
+    }
+    #imgp5{
+        background-image: url(../images/todoList.png);
+        background-size: cover;
+        }
+        #imgp6{
+            background-image: url(../images/decorationClints.png);
+            background-size: cover;
+            }
+            #imgp8{
+                background-image: url(../images/portfolio.png);
+                background-size: cover;
+                }
+                #imgp9{
+                    background-image: url(../images/Aerophentom.png);
+                    background-size: cover;
+                    }
+                    #imgp10{
+                        background-image: url(../images/ButtonAnimationFigma.png);
+                        background-size: cover;
+                        }
+                        #imgp11{
+                            background-image: url(../images/firstProjectFigma.png);
+                            background-size: cover;
+                            }
+                            #imgp12{
+                                background-image: url(../images/web3projectFigma.png);
+                                background-size: cover;
+                                }
+                                #imgp13{
+                                    background-image: url(../images/Stop_Watch_img.jpeg);
+                                    background-size: cover;
+                                    }
+                                    #imgp14{
+                                        background-image: url(../images/time_counter_img.png);
+                                        background-size: cover;
+                                        }
+                                        #imgp15{
+                                            background-image: url(../images/quize_app_img.png);
+                                            background-size: cover;
+                                            }
+                                            #imgp16{
+                                                background-image: url(https://uizard.io/static/89cb1d30cdee9c19b0ce72efe004ff49/a8e47/f5e31989f816c5b15c47cd54b0eb0b30b210b6f0-1440x835.png);
+                                                background-size: cover;
+                                                }
+                                                #imgp17{
+                                                    background-image: url(https://i.ytimg.com/vi/ppm185kPn5I/maxresdefault.jpg);
+                                                    background-size: cover;
+                                                    }
+                                                    #imgp18{
+                                                        background-image: url(https://th.bing.com/th/id/OIP.2Oyj2cnqGAu3ayap6FpIcAHaDt?rs=1&pid=ImgDetMain);
+                                                        background-size: cover;
+                                                        }
+
+
+                                                        #imgp191{
+                                                            background-image: url(https://th.bing.com/th/id/OIP.3oUQMbfJNmPZPTkd-Er0aQHaEK?rs=1&pid=ImgDetMain);
+                                                            background-size: cover;
+                                                            }
+                                                            #imgp20{
+                                                                background-image: url(https://th.bing.com/th/id/OIP.FZ_xh2Oe7D1fGqy9kiw0xgHaEc?rs=1&pid=ImgDetMain);
+                                                                background-size: cover;
+                                                                }
+                                                                #imgp21{
+                                                                    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/3eb116191581177.65cdfc2064df1.png);
+                                                                    background-size: cover;
+                                                                    }
+                                                                    #imgp22{
+                                                                        background-image: url(https://mir-s3-cdn-cf.behance.net/projects/404/d449d187056783.Y3JvcCwxNDAwLDEwOTUsMCwyNw.jpg);
+                                                                        background-size: cover;
+                                                                        } #imgp32{
+                                                                            background-image: url(https://s3-alpha.figma.com/hub/file/1803556575/dddad4ab-afbe-4c4b-bfbd-5f872db64b12-cover.png);
+                                                                            background-size: cover;
+                                                                            }
+                                                                            #imgp33{
+                                                                                background-image: url(https://opengraph.githubassets.com/ae293aa47bec652bfeb7a9e99579d7970cbcd6e1c19cbd79f46697b62df900bd/chaodonghu/tiny_url_shortener_app);
+                                                                                background-size: cover;
+                                                                                }#imgp34{
+                                                                                    background-image: url(https://th.bing.com/th/id/OIP.HQClB_bJsnTEHyVJVmMUqgHaEf?rs=1&pid=ImgDetMain);
+                                                                                    background-size: cover;
+                                                                                    }
+                                                                                    #imgp35{
+                                                                                        background-image: url(https://th.bing.com/th/id/OIP.Rwk0FdLIVmusl0QC5uqStQHaEx?rs=1&pid=ImgDetMain);
+                                                                                        background-size: cover;
+                                                                                        } #imgp36{
+                                                                                            background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/29e09a89873975.5e0473574c8dc.png);
+                                                                                            background-size: cover;
+                                                                                            }
+                                                                                            #imgp37{
+                                                                                                background-image: url(https://th.bing.com/th/id/OIP.V5Hyb6k2QEfSCPTb9rz9zgHaEA?rs=1&pid=ImgDetMain);
+                                                                                                background-size: cover;
+                                                                                                }#imgp38{
+                                                                                                    background-image: url(https://i.ytimg.com/vi/bIqOJg6uTxc/maxresdefault.jpg);
+                                                                                                    background-size: cover;
+                                                                                                    }
+                
+                
+
+@media (max-width:600px){ .headP{
+    flex-direction: column; 
+}
+    .headerP{
+    width: 80%;
+}
+.Pname{
+    padding: 0;
+}
+}
+
+.justFunContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.funtext{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5vh 3vh;
+}
+.funHeading{
+    font-size: 6vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.funAbout{
+    font-size: larger;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

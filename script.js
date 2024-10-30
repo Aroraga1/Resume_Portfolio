@@ -77,3 +77,70 @@ function sendmail(name, email, massage) {
     projectPage.addEventListener('click', () => {
         Lines.style.display = 'flex';
     });
+
+    const techStacksData = {
+        tools: [
+            { name: 'Git', img: 'path/to/git.png' },
+            { name: 'Figma', img: 'path/to/git.png' },
+            { name: 'Canva', img: 'path/to/docker.png' },
+            // Add more tools...
+        ],
+        competitiveTechSkills: [
+            { name: 'Data Structures & Algorithms', img: 'path/to/data-structures.png' },
+            { name: 'Data Structures & Algorithms', img: 'path/to/data-structures.png' },
+            { name: 'Java Script', img: 'path/to/data-structures.png' },
+            { name: 'SQL', img: 'path/to/algorithms.png' },
+            // Add more skills...
+        ],
+        development: [
+            { name: 'React', img: 'path/to/javascript.png' },
+            { name: 'Node', img: 'path/to/python.png' },
+            { name: 'Express', img: 'path/to/python.png' },
+            { name: 'MongoDB', img: 'path/to/python.png' },
+            { name: 'Sockets', img: 'path/to/python.png' },
+            { name: 'JWT', img: 'path/to/python.png' },
+            // Add more languages...
+        ],
+        softSkills: [
+            { name: 'Communication', img: 'path/to/communication.png' },
+            { name: 'Teamwork', img: 'path/to/teamwork.png' },
+            // Add more skills...
+        ],
+    };
+    
+    const navButtons = document.querySelectorAll('.nav-button');
+    const techStacksContainer = document.getElementById('tech-stacks');
+    const indicator = document.getElementById('indicator');
+    
+    let currentButton = navButtons[0];
+    
+    navButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const category = button.dataset.category;
+            techStacksContainer.innerHTML = '';
+    
+            techStacksData[category].forEach(stack => {
+                const stackDiv = document.createElement('div');
+                stackDiv.className = 'stack';
+                stackDiv.innerHTML = `
+                    <img src="${stack.img}" alt="${stack.name}">
+                    <p>${stack.name}</p>
+                `;
+                techStacksContainer.appendChild(stackDiv);
+            });
+    
+            currentButton.classList.remove('active');
+            currentButton = button;
+            currentButton.classList.add('active');
+    
+            const buttonRect = button.getBoundingClientRect();
+            const navbarRect = document.querySelector('.navbar').getBoundingClientRect();
+            indicator.style.transform = `translateX(${buttonRect.left - navbarRect.left}px)`;
+        });
+    });
+    
+    // Initial position of the indicator
+    const initialButtonRect = navButtons[0].getBoundingClientRect();
+    const initialNavbarRect = document.querySelector('.navbar').getBoundingClientRect();
+    indicator.style.transform = `translateX(${initialButtonRect.left - initialNavbarRect.left}px)`;
+    
