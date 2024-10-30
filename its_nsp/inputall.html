@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Input Types Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 400px;
+            top: 20px;
+        }
+
+        .form-header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .form-body {
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group input[type="checkbox"],
+        .form-group input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .form-group button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form-group button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h2>All Input Types Form</h2>
+        </div>
+        <div class="form-body">
+            <div class="form-group">
+                <label for="text-input">Text Input:</label>
+                <input type="text" id="text-input" name="text-input" placeholder="Enter text">
+            </div>
+            <div class="form-group">
+                <label for="password-input">Password Input:</label>
+                <input type="password" id="password-input" name="password-input" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label for="email-input">Email Input:</label>
+                <input type="email" id="email-input" name="email-input" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox" name="checkbox"> Check me
+            </div>
+            <div class="form-group">
+                <label for="radio1">Radio Button 1:</label>
+                <input type="radio" id="radio1" name="radio-group" checked> Option 1
+            </div>
+            <div class="form-group">
+                <label for="radio2">Radio Button 2:</label>
+                <input type="radio" id="radio2" name="radio-group"> Option 2
+            </div>
+            <div class="form-group">
+                <label for="textarea">Textarea:</label>
+                <textarea id="textarea" name="textarea" rows="4" placeholder="Enter text"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="select">Select:</label>
+                <select id="select" name="select">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{font-family:sans-serif;margin:0;display:flex;justify-content:center;align-items:center;height:100vh;}
+    form{width:300px;background:#f4f4f4;padding:20px;border-radius:8px;}
+    label{display:block;margin-bottom:8px;}
+    input{width:100%;padding:8px;margin-bottom:16px;}
+    button{background:#4caf50;color:#fff;padding:8px 16px;border:none;border-radius:4px;cursor:pointer;}
+  </style>
+  <title>Simple Form</title>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.card{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+}
+.Dragen{
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    background-color: olive;
+    left: 500px;
+}

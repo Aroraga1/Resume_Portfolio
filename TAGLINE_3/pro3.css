@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.container{
+    background-color: rgb(242, 92, 165);
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    font: 100 1.3rem sans-serif;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 150px 50px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+}
+
+#entry{
+    background-color: yellow;
+    font:100 1.3rem sans-serif;
+    width: 65%;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+}
+
+button{
+    background-color: yellow;
+    font: 100 1.3rem sans-serif;
+    width: 20%;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5sd  ;
+}
+
+button:hover{
+    background-color: rgb(228, 0, 0);
+
+}

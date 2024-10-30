@@ -1,0 +1,73 @@
+
+
+nav{
+    flex-direction: row;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 35px rgba(116, 159, 216, 0.546);
+
+}
+ 
+.logo{
+    width: 45%;
+    justify-content: left;
+    display: inline-block;
+}
+
+h3{
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.nav-atributes{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(244, 141, 141); */
+    font-size: xx-large;
+    text-decoration: none;
+
+}
+a{
+    font-style: none;
+    color: rgba(0, 0, 128, 0.766);
+    text-decoration: none;
+    font-weight:500;
+    display: inline-block;
+}
+
+.signu{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 128, 0.766);
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+
+}
+.target{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: azure;
+    border-radius: 15px;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.628);
+}
+.target a{
+    display: block;
+}
+tar{
+    position: relative;
+    display: inline-block;
+}
+
+.tar:hover .target{
+    display: block;
+}

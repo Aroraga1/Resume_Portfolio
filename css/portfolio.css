@@ -41,6 +41,7 @@
     border-radius: 20px;
     background-color: rgba(24,22,22,0.8);
     margin-top: 3vh;
+    overflow: hidden;
 }
 .Pname{
     color: #fff;
@@ -89,14 +90,24 @@
         margin-bottom: 50px;
     }
     .gitP{
+        width: 100%;
+        height: max-content;
+        padding: 0 14vw;
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+        padding: auto;
+        justify-content: center;
+        overflow: hidden;
         font-size: medium;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-left: 30px;
+        margin: auto;
         margin-bottom: 50px;
-        color: rgb(76, 118, 202);
+        color: rgb(42, 44, 46);
         text-decoration: none;
         border-radius: 10px;
+        text-align: center;
+        background-color: rgba(15, 15, 15, 0.8);
     }
     #imgp1{
         background-image: url(https://www.ghacks.net/wp-content/uploads/2023/03/InWith-AI-Launches-Free-Personalized-Chatbot-Clone-for-Enhanced-Online-Interactions-02-1536x864.jpg);
@@ -228,6 +239,7 @@
 
 .justFunContainer{
     width: 80%;
+    max-height: 40vh;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -235,8 +247,8 @@
     margin-bottom: 10vh;
 }
 .funtext{
-    width: 50%;
-    height: 300px;
+    width: 40%;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -252,3 +264,26 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.container {
+    width: max-content;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    background-color: #1e1c1c;
+    box-shadow: 0 0 2px #000;
+    height: 1vw;
+    width: 1.5vh;
+    margin: 2px;
+    transition: 2s ease;
+    border-radius: 3px;
+  }
+  
+  .square:hover {
+    transition-duration: 0s;
+  }

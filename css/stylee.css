@@ -6,6 +6,10 @@ body{
     text-align: center;
     margin: 0 auto;
     overflow-x:hidden;      
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .gradient1{
     width: 50vw;
@@ -379,6 +383,9 @@ input{
     .navContain{
     flex-direction: column;
     width: 20vw;
+    }
+    .justFunContainer{
+        display: none;
     }
 }
 

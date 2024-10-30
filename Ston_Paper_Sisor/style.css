@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(23, 21, 21);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1_text{
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    border-radius: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+.obj{
+    margin: 2vw;
+    padding: auto;
+    background-color: red;
+    border-radius: 40px;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    box-shadow: -5px 5px 0px black;
+}
+.results,.randomChoose,.userChoice{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+}
+*::selection{
+    background-color: black;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: white;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    gap: 40px;
+}
+nav img{
+    width: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    letter-spacing: -1px;
+    font-size: 1.1vw;
+}
+nav i{
+    font-size: 20px;
+}
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+#homemain h1{
+    font-size: 1.2vw;
+    letter-spacing: .0.7vw;
+    font-weight: 500;
+}
+.headings {
+    display: flex;
+    gap: 40px;
+}
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 0.8px black;
+    font-size: 7vw;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -4px;
+}
+#homelast{
+    padding: 5vw 15vw;
+}
+#homelast p{
+    width: 70%;
+    font-size: 1.5vw;
+    font-size: 400;
+    letter-spacing: -.02px;
+}
+#homelast p::selection{
+    background-color: black;
+    color: white;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+     padding: 10vw 15vw;
+}
+#features h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+#features h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 0.8px black;
+}
+#fimgs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+    /* align-items: start; */
+    }
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    border: 1px solid blue;
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: 80vh;
+}
+#fright .imgs{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(210, 80, 80);
+    overflow: hidden;
+}
+.fleftlm{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fleftlm h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+.fleftlm h5{
+    opacity: 0.5;
+}
+.fleftlm h3{
+    font-size: 1.2vw;
+}
+.btndiv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.btndiv button{
+    padding: 2vw 2.5vw;
+    border-radius: 100px;
+    border: 1px solid gray;
+    letter-spacing: 1px;
+}
+#dev{
+    width:  100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    width: 60%;
+}
+#slides{
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+    width: 30%;
+}
+.slide .img{
+    width: 100%;
+    height: 270px;
+    background-color: yellow;
+    overflow: hidden;
+}
+.slide .tag{
+    color: white;
+    padding: 1vh 2vw;
+    background-color: gray;
+    margin: 20px 0;
+    width: fit-content;
+    border-radius: 100px;
+}
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#fright .imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

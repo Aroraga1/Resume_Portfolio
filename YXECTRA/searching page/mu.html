@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>Admin</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #FAF1E4;
+    }
+    h1{
+        color: #FFC436;
+    }
+    .main{
+        margin-top: 20px;
+        display: grid;
+        place-items: center;
+        row-gap: 8px;
+    }
+    .form{
+        margin-top: 20px;
+        height: 100%;
+        width:40%;
+    }
+    input{
+        margin-left: 10px;
+        width: 250px;
+    }
+    button{
+        margin-left: 300px;
+        padding: 5px 20px;
+        background-color: #FFC436;
+        font-size: 20px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    button:hover{
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <h1>Welcome to the Dynamic Portfolio, Enter your information</h1>
+        <div class="form">
+            <form action="/portfolio" method="post">
+                <label for="username">Enter Username: </label>
+                <input type="text" name="uname">
+                <br><br>
+                <label for="name">Enter Full Name: </label>
+                <input type="text" name="name" id="">
+                <br><br>
+                <label for="email">Enter Email: </label>
+                <input type="email" name="email">
+                <br><br>
+                <label for="college">Enter College name:</label>
+                <input type="text" name="clg">
+                <br><br>
+                <label for="about">Languages known:</label>
+                <input type="text" name="lng">
+                <br><br>
+                <label for="experience">Experience in your field:</label>
+                <select name="year">
+                    <option>1 year</optione>
+                        <option>2 year</option>
+                        <option>3 year</option>
+                        <option>4+ years</option>
+                    </select>
+                <br><br>
+                <label for="skills">Enter your skills:</label>
+                <br>
+                <input type="text" autocomplete="off" name="skill1">
+                <input type="text" autocomplete="off" name="skill2">
+                <input type="text" autocomplete="off" name="skill3">
+                <input type="text" autocomplete="off" name="skill4">
+                <input type="text" autocomplete="off" name="skill5">
+                <br><br>
+                <label for="linkedin">linkedIn: </label>
+                <input type="url" name="linkedin">
+                <br><br>
+                <label for="linkedin">Github: </label>
+                <input type="url" name="github">
+                <br><br>
+                <label for="linkedin">Instagram: </label>
+                <input type="url" name="insta">
+                <br><br>
+                <label for="linkedin">Twitter: </label>
+                <input type="url" name="tweet">
+                <br><br>
+                <label for="about">About yourself:</label>
+                <textarea name="abt" cols="30" rows="2" maxlength="1000"></textarea>
+                <br><br>
+                <label for="image">Enter Image url: </label>
+                <input name="image" placeholder="Please enter the url of your image here">
+                <p>First upload image to <a href="https://postimages.org" target="_blank">postimages.org</a> and then paste the link here. (Image must be of 500px X 500px)</p>
+                <button type="submit">Get Portfolio</button>
+                </form>
+            </div>
+        </div>
+        {{ data.reason }}
+</body>
+</html>

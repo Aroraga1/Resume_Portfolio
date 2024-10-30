@@ -17,8 +17,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 200px;
-  max-height: 400px;
+  max-width: 40%;
+  max-height: 40vh;
 }
 
 .square {

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="head">This Line Is for Cheack and Test</h1>
+        <input type="text" id="name" placeholder="Write Somehing Here">
+        <input type="text" id="email" placeholder="Write Somehing Here">
+        <input type="text" id="massage" placeholder="Write Somehing Here">
+        <button type="submit" onclick="sendmail()">Click Here</button>
+    </div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Jc6QUeM99-9-oR4bl");
+   })();
+</script>
+    <script src="./event.js"></script>
+</body>
+</html>
